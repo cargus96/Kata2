@@ -15,5 +15,7 @@ public class Kata3 {
         histogram.increment("ulpgc.es");
         HistogramDisplay histo = new HistogramDisplay(histogram);
         histo.execute();
+        
+        
     }
 }

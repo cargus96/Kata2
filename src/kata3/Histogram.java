@@ -15,20 +15,6 @@ public class Histogram <T> {
     public void increment(T key){
         map.put(key, map.containsKey(key) ? map.get(key)+1 : 1);
     }
-    /**private final T [] data;
-    public Histogram(T[] data) {
-        this.data = data;
-    }  
-    public T[] getData() {
-        return data;
-    }
-    public Map<T,Integer> getHistogram(){
-        Map<T,Integer> histogram = new HashMap<>();
-        for (T value : data) {
-            histogram.put(value, histogram.containsKey(value) ?
-                histogram.get(value) +1 : 1);
-        }
-        return histogram;
-    }*/
+
     
 }
